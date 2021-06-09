@@ -1709,7 +1709,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4.5em);
-		width: 45em;
+		width: 60em;
 	}
 
 		.container.xsmall {
@@ -1759,7 +1759,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #aaa;
+		color: rgb(253, 0, 0);
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -2883,11 +2883,11 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 21em;
+				width: 16em;
 			}
 
 				#header > header {
-					padding: 2em;
+					padding: 1em;
 				}
 
 				#header > footer {
@@ -2897,7 +2897,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 21em;
+				padding-right: 16em;
 			}
 
 		/* Main */
@@ -2921,13 +2921,13 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 20em;
+				width: 16em;
 			}
 
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 20em;
+				padding-right: 16em;
 			}
 
 	}
