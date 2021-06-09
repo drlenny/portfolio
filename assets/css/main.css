@@ -2381,11 +2381,12 @@ input, select, textarea {
 		ul.feature-icons li {
 			text-decoration: none;
 			display: inline-block;
-			margin: 0 0 1.6875em 0;
-			padding: 0.35em 0 0 3.5em;
+			margin: 0 0 2.5em 0;
+			padding: 0.90em 0 0 4.5em;
 			position: relative;
 			vertical-align: top;
 			width: 48%;
+			font-weight: 1000;
 		}
 
 			ul.feature-icons li:before {
@@ -2399,6 +2400,7 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
+				font-size: 2em;
 			}
 
 			ul.feature-icons li:before {
@@ -2406,13 +2408,13 @@ input, select, textarea {
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
-				height: 2.5em;
+				height: 1.75em;
 				left: 0;
-				line-height: 2.5em;
+				line-height: 1.75em;
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: 2.5em;
+				width: 1.75em;
 			}
 
 /* Icons */
@@ -2433,7 +2435,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.25em;
+				font-size: 2em;
 			}
 
 /* Table */
