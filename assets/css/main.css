@@ -149,6 +149,8 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		line-height: 1.5em;
+		text-align: center;
+		font-variant: small-caps;
 	}
 
 	h3 {
@@ -2661,11 +2663,6 @@ input, select, textarea {
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
-
-		.features article:first-child {
-			border-top: 0;
-			padding-top: 0;
-		}
 
 		.features article .image {
 			display: inline-block;
