@@ -2790,7 +2790,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #ffffff;
 					display: block;
 					padding: 0;
 				}
@@ -2806,6 +2806,11 @@ input, select, textarea {
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
+
+						#header > nav ul li a:hover {
+							background: #4ae6bca9;
+							color: #ffffff !important;
+						}
 
 						#header > nav ul li a.active {
 							background: #fff;
