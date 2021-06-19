@@ -1,6 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -2210,6 +2210,25 @@ input, select, textarea {
 
 			.image.main img {
 				border-radius: 0;
+				z-index: 1;
+			}
+			.textWrapper {
+				transform: translateY(-50%);
+				position: absolute;
+				text-align: center;
+				right: 0;
+				top: 50%;
+				left: 0;
+				z-index: 2;
+			}
+			.textWrapper h1 {
+				color: black;
+				font-family: 'Righteous', cursive;
+				font-size: 4em;
+			}
+			.textWrapper h2 {
+				color: black;
+				font-family: 'Righteous', cursive;
 			}
 
 /* List */
